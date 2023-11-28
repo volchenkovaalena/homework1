@@ -42,22 +42,22 @@ public class Main {
         frog = frog + 4;
         System.out.println (frog);
 
-        var WeightBoxer1 = 78.2;
-        var WeightBoxer2 = 82.7;
-        System.out.println(WeightBoxer1 + WeightBoxer2);
-        System.out.println(WeightBoxer2 - WeightBoxer1);
+        var weightBoxer1 = 78.2;
+        var weightBoxer2 = 82.7;
+        System.out.println(weightBoxer1 + weightBoxer2);
+        System.out.println(weightBoxer2 - weightBoxer1);
 
-        System.out.println(WeightBoxer2 - WeightBoxer1);
-        System.out.println(WeightBoxer2 % WeightBoxer1);
+        System.out.println(weightBoxer2 - weightBoxer1);
+        System.out.println(weightBoxer2 % weightBoxer1);
 
-        var TotalWorkHours = 640;
-        var WorkHoursForPerson = 8;
-        var workers = TotalWorkHours / WorkHoursForPerson;
+        var totalWorkHours = 640;
+        var workHoursForPerson = 8;
+        var workers = totalWorkHours / workHoursForPerson;
         System.out.println ("Всего работников в компании " + workers + " человек" );
 
         workers = workers + 90;
-        TotalWorkHours = workers * 8;
-        System.out.println ("Если в компании работает " + workers + " человек, то всего " + TotalWorkHours + " часов работы может быть поделено между сотрудниками.");
+        totalWorkHours = workers * 8;
+        System.out.println ("Если в компании работает " + workers + " человек, то всего " + totalWorkHours + " часов работы может быть поделено между сотрудниками.");
 
 
 
